@@ -80,8 +80,9 @@ def ouo_bypass(url):
 
 # -------------------------------------------
 
-out = ouo_bypass(url)
-print(out)
+if __name__ == "__main__":
+    out = ouo_bypass(url)
+    print(out)
 
 # -------------------------------------------
 '''
